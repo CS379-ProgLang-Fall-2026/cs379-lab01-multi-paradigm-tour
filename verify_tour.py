@@ -66,7 +66,7 @@ def check(label: str, condition: bool, failures: list) -> None:
 def find_binary(*candidates: str):
     for name in candidates:
         if os.path.isfile(name):
-            return name
+            return os.path.abspath(name)
     return None
 
 
