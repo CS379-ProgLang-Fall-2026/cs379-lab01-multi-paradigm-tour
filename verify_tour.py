@@ -66,6 +66,10 @@ def check(label: str, condition: bool, failures: list) -> None:
 def find_binary(*candidates: str):
     for name in candidates:
         if os.path.isfile(name):
+            # Use an absolute path -- on Windows, subprocess.run can fail to
+            # resolve a bare relative filename like "stats_c.exe" even when
+            # it's sitting right in the current directory (WinError 2), so a
+            # relative name isn't safe to hand to subprocess directly.
             return os.path.abspath(name)
     return None
 

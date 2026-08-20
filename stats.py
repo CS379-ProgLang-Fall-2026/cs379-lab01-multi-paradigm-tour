@@ -2,7 +2,7 @@
 Lab 1: The Multi-Paradigm Tour -- Python implementation.
 
 Run: python stats.py 4 8 15 16 23 42
-Complete compute_stats() below. See Lab_01_The_Multi_Paradigm_Tour.md,
+Complete compute_stats() below. See the assignment,
 Part B, for the full shared contract (all three language versions
 must match it exactly).
 """

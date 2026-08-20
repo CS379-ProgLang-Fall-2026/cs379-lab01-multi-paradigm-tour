@@ -4,12 +4,7 @@
  * Compile: gcc -O2 -o stats_c stats.c
  * Run:     ./stats_c 4 8 15 16 23 42
  *
- * UNVALIDATED: no C compiler was available in the environment this
- * starter was built in, so this file has NOT been compiled or run.
- * Written carefully by hand, but treat it as a first draft to sanity
- * check yourself -- see the course README for details.
- *
- * Complete the TODO section. See Lab_01_The_Multi_Paradigm_Tour.md,
+ * Complete the TODO section. See the assignment,
  * Part B, for the full shared contract (all three language versions
  * must match it exactly, including the tie-breaking mode rule).
  */

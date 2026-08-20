@@ -15,17 +15,6 @@ executable size and cold-start latency, and prints a comparison
 table. Success Token prints only if all three implementations agree
 on every vector.
 
-## What's validated here vs. not
-- **`stats.py` and `verify_tour.py`'s comparison/diffing logic**: run
-  and confirmed correct against the assignment's own worked example
-  (`Mean: 18.00 / Median: 15.50 / Mode: 4`) plus a genuine mode-tie
-  case.
-- **`stats.c` and `stats.go`**: no C compiler or Go toolchain was
-  available in the environment these were written in, so neither has
-  been compiled or run. Written carefully to match the same contract,
-  but treat them as an unverified first draft -- compile and test
-  them yourself before trusting them as a reference.
-
 ## Submit
 1. `Lab1_Theory.pdf` (or `.md`), including your measured data table
 2. `stats.c`, `stats.py`, `stats.go`
